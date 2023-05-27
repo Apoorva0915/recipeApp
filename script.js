@@ -45,6 +45,7 @@ const openRecipePopup=(meal)=>{
     recipeContent.innerHTML=`
     <h2 class="recipeName">${meal.strMeal}</h2>
     <h3>Ingredients:</h3>
+    <br>
     <ul class="ingredientsList">${fetchIngredients(meal)}
     <div class="instruction">
     <h3>Intruction:</h3>
